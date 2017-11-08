@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63ADE7E41FB315890009B007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADE7E31FB315890009B007 /* AppDelegate.swift */; };
+		63ADE7E61FB315890009B007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADE7E51FB315890009B007 /* ViewController.swift */; };
+		63ADE7E91FB315890009B007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ADE7E71FB315890009B007 /* Main.storyboard */; };
+		63ADE7EB1FB315890009B007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63ADE7EA1FB315890009B007 /* Assets.xcassets */; };
+		63ADE7EE1FB315890009B007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63ADE7EC1FB315890009B007 /* LaunchScreen.storyboard */; };
+		63ADE7F91FB3158A0009B007 /* JDMowerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADE7F81FB3158A0009B007 /* JDMowerAppTests.swift */; };
+		63ADE8041FB3158A0009B007 /* JDMowerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADE8031FB3158A0009B007 /* JDMowerAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63ADE7F51FB3158A0009B007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63ADE7D81FB315890009B007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63ADE7DF1FB315890009B007;
+			remoteInfo = JDMowerApp;
+		};
+		63ADE8001FB3158A0009B007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63ADE7D81FB315890009B007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63ADE7DF1FB315890009B007;
+			remoteInfo = JDMowerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63ADE7E01FB315890009B007 /* JDMowerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDMowerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ADE7E31FB315890009B007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63ADE7E51FB315890009B007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63ADE7E81FB315890009B007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63ADE7EA1FB315890009B007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63ADE7ED1FB315890009B007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63ADE7EF1FB315890009B007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ADE7F41FB3158A0009B007 /* JDMowerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMowerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ADE7F81FB3158A0009B007 /* JDMowerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDMowerAppTests.swift; sourceTree = "<group>"; };
+		63ADE7FA1FB3158A0009B007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63ADE7FF1FB3158A0009B007 /* JDMowerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDMowerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63ADE8031FB3158A0009B007 /* JDMowerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JDMowerAppUITests.swift; sourceTree = "<group>"; };
+		63ADE8051FB3158A0009B007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63ADE7DD1FB315890009B007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7F11FB3158A0009B007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7FC1FB3158A0009B007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63ADE7D71FB315890009B007 = {
+			isa = PBXGroup;
+			children = (
+				63ADE7E21FB315890009B007 /* JDMowerApp */,
+				63ADE7F71FB3158A0009B007 /* JDMowerAppTests */,
+				63ADE8021FB3158A0009B007 /* JDMowerAppUITests */,
+				63ADE7E11FB315890009B007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63ADE7E11FB315890009B007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63ADE7E01FB315890009B007 /* JDMowerApp.app */,
+				63ADE7F41FB3158A0009B007 /* JDMowerAppTests.xctest */,
+				63ADE7FF1FB3158A0009B007 /* JDMowerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63ADE7E21FB315890009B007 /* JDMowerApp */ = {
+			isa = PBXGroup;
+			children = (
+				63ADE7E31FB315890009B007 /* AppDelegate.swift */,
+				63ADE7E51FB315890009B007 /* ViewController.swift */,
+				63ADE7E71FB315890009B007 /* Main.storyboard */,
+				63ADE7EA1FB315890009B007 /* Assets.xcassets */,
+				63ADE7EC1FB315890009B007 /* LaunchScreen.storyboard */,
+				63ADE7EF1FB315890009B007 /* Info.plist */,
+			);
+			path = JDMowerApp;
+			sourceTree = "<group>";
+		};
+		63ADE7F71FB3158A0009B007 /* JDMowerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63ADE7F81FB3158A0009B007 /* JDMowerAppTests.swift */,
+				63ADE7FA1FB3158A0009B007 /* Info.plist */,
+			);
+			path = JDMowerAppTests;
+			sourceTree = "<group>";
+		};
+		63ADE8021FB3158A0009B007 /* JDMowerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63ADE8031FB3158A0009B007 /* JDMowerAppUITests.swift */,
+				63ADE8051FB3158A0009B007 /* Info.plist */,
+			);
+			path = JDMowerAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63ADE7DF1FB315890009B007 /* JDMowerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ADE8081FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerApp" */;
+			buildPhases = (
+				63ADE7DC1FB315890009B007 /* Sources */,
+				63ADE7DD1FB315890009B007 /* Frameworks */,
+				63ADE7DE1FB315890009B007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDMowerApp;
+			productName = JDMowerApp;
+			productReference = 63ADE7E01FB315890009B007 /* JDMowerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63ADE7F31FB3158A0009B007 /* JDMowerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ADE80B1FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerAppTests" */;
+			buildPhases = (
+				63ADE7F01FB3158A0009B007 /* Sources */,
+				63ADE7F11FB3158A0009B007 /* Frameworks */,
+				63ADE7F21FB3158A0009B007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63ADE7F61FB3158A0009B007 /* PBXTargetDependency */,
+			);
+			name = JDMowerAppTests;
+			productName = JDMowerAppTests;
+			productReference = 63ADE7F41FB3158A0009B007 /* JDMowerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63ADE7FE1FB3158A0009B007 /* JDMowerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63ADE80E1FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerAppUITests" */;
+			buildPhases = (
+				63ADE7FB1FB3158A0009B007 /* Sources */,
+				63ADE7FC1FB3158A0009B007 /* Frameworks */,
+				63ADE7FD1FB3158A0009B007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63ADE8011FB3158A0009B007 /* PBXTargetDependency */,
+			);
+			name = JDMowerAppUITests;
+			productName = JDMowerAppUITests;
+			productReference = 63ADE7FF1FB3158A0009B007 /* JDMowerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63ADE7D81FB315890009B007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Fraunhofer;
+				TargetAttributes = {
+					63ADE7DF1FB315890009B007 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					63ADE7F31FB3158A0009B007 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63ADE7DF1FB315890009B007;
+					};
+					63ADE7FE1FB3158A0009B007 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 63ADE7DF1FB315890009B007;
+					};
+				};
+			};
+			buildConfigurationList = 63ADE7DB1FB315890009B007 /* Build configuration list for PBXProject "JDMowerApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63ADE7D71FB315890009B007;
+			productRefGroup = 63ADE7E11FB315890009B007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63ADE7DF1FB315890009B007 /* JDMowerApp */,
+				63ADE7F31FB3158A0009B007 /* JDMowerAppTests */,
+				63ADE7FE1FB3158A0009B007 /* JDMowerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63ADE7DE1FB315890009B007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ADE7EE1FB315890009B007 /* LaunchScreen.storyboard in Resources */,
+				63ADE7EB1FB315890009B007 /* Assets.xcassets in Resources */,
+				63ADE7E91FB315890009B007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7F21FB3158A0009B007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7FD1FB3158A0009B007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63ADE7DC1FB315890009B007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ADE7E61FB315890009B007 /* ViewController.swift in Sources */,
+				63ADE7E41FB315890009B007 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7F01FB3158A0009B007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ADE7F91FB3158A0009B007 /* JDMowerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63ADE7FB1FB3158A0009B007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ADE8041FB3158A0009B007 /* JDMowerAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63ADE7F61FB3158A0009B007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63ADE7DF1FB315890009B007 /* JDMowerApp */;
+			targetProxy = 63ADE7F51FB3158A0009B007 /* PBXContainerItemProxy */;
+		};
+		63ADE8011FB3158A0009B007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63ADE7DF1FB315890009B007 /* JDMowerApp */;
+			targetProxy = 63ADE8001FB3158A0009B007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63ADE7E71FB315890009B007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ADE7E81FB315890009B007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63ADE7EC1FB315890009B007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63ADE7ED1FB315890009B007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63ADE8061FB3158A0009B007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63ADE8071FB3158A0009B007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63ADE8091FB3158A0009B007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63ADE80A1FB3158A0009B007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63ADE80C1FB3158A0009B007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMowerApp.app/JDMowerApp";
+			};
+			name = Debug;
+		};
+		63ADE80D1FB3158A0009B007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JDMowerApp.app/JDMowerApp";
+			};
+			name = Release;
+		};
+		63ADE80F1FB3158A0009B007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMowerApp;
+			};
+			name = Debug;
+		};
+		63ADE8101FB3158A0009B007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JDMowerAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.fraunhofer.JDMowerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JDMowerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63ADE7DB1FB315890009B007 /* Build configuration list for PBXProject "JDMowerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ADE8061FB3158A0009B007 /* Debug */,
+				63ADE8071FB3158A0009B007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ADE8081FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ADE8091FB3158A0009B007 /* Debug */,
+				63ADE80A1FB3158A0009B007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ADE80B1FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ADE80C1FB3158A0009B007 /* Debug */,
+				63ADE80D1FB3158A0009B007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63ADE80E1FB3158A0009B007 /* Build configuration list for PBXNativeTarget "JDMowerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63ADE80F1FB3158A0009B007 /* Debug */,
+				63ADE8101FB3158A0009B007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63ADE7D81FB315890009B007 /* Project object */;
+}
